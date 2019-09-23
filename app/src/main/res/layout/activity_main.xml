@@ -39,5 +39,5 @@
         app:layout_constraintBottom_toBottomOf="@+id/btn_dynamic_fragment"
         android:onClick="handlerPraktikumFragment"
     />
-    
+
 </androidx.constraintlayout.widget.ConstraintLayout>
