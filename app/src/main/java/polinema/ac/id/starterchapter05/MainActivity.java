@@ -2,6 +2,7 @@ package polinema.ac.id.starterchapter05;
 
 import androidx.appcompat.app.AppCompatActivity;
 import polinema.ac.id.starterchapter05.activities.DynamicActivity;
+import polinema.ac.id.starterchapter05.activities.PraktikumActivity;
 import polinema.ac.id.starterchapter05.activities.StaticActivity;
 
 import android.content.Intent;
