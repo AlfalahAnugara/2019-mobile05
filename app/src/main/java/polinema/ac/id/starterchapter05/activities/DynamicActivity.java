@@ -1,9 +1,12 @@
 package polinema.ac.id.starterchapter05.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentTransaction;
 import polinema.ac.id.starterchapter05.R;
+import polinema.ac.id.starterchapter05.fragments.RedFragment;
 
 import android.os.Bundle;
+import android.view.View;
 
 public class DynamicActivity extends AppCompatActivity {
 
@@ -11,5 +14,17 @@ public class DynamicActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dynamic);
+    }
+
+    public void handleClickLoadRedFragment(View view) {
+//        FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
+//        fragmentTransaction.replace(R.id.dynamic_fragment_placeholder,new RedFragment());
+//        fragmentTransaction.commit();
+    }
+
+    public void handleClickLoadBlueFragment(View view) {
+//        FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
+//        fragmentTransaction.replace(R.id.dynamic_fragment_placeholder,new RedFragment());
+//        fragmentTransaction.commit();
     }
 }
