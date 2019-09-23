@@ -19,7 +19,7 @@
 
     <fragment
         android:id="@+id/blue_fragment_placeholder"
-        android:name="polinema.ac.id.starterchapter05.fragments.RedFragment"
+        android:name="polinema.ac.id.starterchapter05.fragments.BlueFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight=".5"
