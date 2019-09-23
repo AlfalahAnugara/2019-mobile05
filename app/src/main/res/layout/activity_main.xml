@@ -17,18 +17,16 @@
         app:layout_constraintTop_toTopOf="parent"
         android:onClick="handlerStaticFragment"
         />
-
     <Button
         android:id="@+id/btn_dynamic_fragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Contoh Dynamiic Fragment"
+        android:text="Contoh Dynamic Fragments"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintBottom_toBottomOf="@+id/btn_static_fragment"
+        app:layout_constraintTop_toBottomOf="@id/btn_static_fragment"
         android:onClick="handlerDynamicFragment"
         />
-
     <Button
         android:id="@+id/btn_praktikum_fragment"
         android:layout_width="match_parent"
@@ -36,8 +34,7 @@
         android:text="Praktikum Fragment"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintBottom_toBottomOf="@+id/btn_dynamic_fragment"
+        app:layout_constraintTop_toBottomOf="@id/btn_dynamic_fragment"
         android:onClick="handlerPraktikumFragment"
-    />
-
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>
