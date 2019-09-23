@@ -3,12 +3,31 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".fragments.RedFragment">
-
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <android.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:background="@color/red"
+        >
+
+
+    <TextView
+        android:id="@+id/txt_red_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="Red Fragment"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottom0f="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:textColor="@color/text"
+
+        >
+    </TextView>
+
+    </android.constraintlayout.widget.ConstraintLayout>
 
 </FrameLayout>
